@@ -1,1 +1,43 @@
-/* Start writing your CSS */
+body{
+    background-image: url('../img/bg.png');
+    background-size: auto;
+    background-repeat: repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+} 
+
+#blackbox{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    margin: 0;
+    flex-direction: column;
+}
+
+.bluebox{
+    border: 4px #3651B3 solid;
+    padding: 5px;
+    margin: 10px;
+}
+
+#header_section{
+    width: 75%;
+    padding: 5px;
+    height: 150px;
+}
+
+.triptych{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: row;
+}
