@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'marola';
+    src: url('fonts/MAROLA_.ttf') format('truetype');
+}
+
 body{
     background-image: url('../img/bg.png');
     background-size: auto;
@@ -24,7 +29,12 @@ body{
 .bluebox{
     border: 4px #3651B3 solid;
     padding: 5px;
-    margin: 10px;
+    margin: 6px;
+}
+
+.bluebox p{
+    font-family: 'Helvetica', sans-serif;
+    color: #FEF29A
 }
 
 #header_section{
@@ -40,4 +50,11 @@ body{
     align-items: center;
     margin: 0;
     flex-direction: row;
+}
+
+h1{
+    font-family: 'marola';
+    color: #FEF29A;
+    font-weight:normal;
+    font-style:normal;
 }
