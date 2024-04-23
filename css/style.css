@@ -30,11 +30,58 @@ body{
     border: 4px #3651B3 solid;
     padding: 5px;
     margin: 6px;
+    height: 700px;
+    width: 20%;
 }
 
-.bluebox p{
+.bluebox1{
+    border: 4px #3651B3 solid;
+    padding: 5px;
+    margin: 6px;
+    height: 700px;
+    width: 20%;
+}
+
+.bluebox2{
+    border: 4px #3651B3 solid;
+    padding: 5px;
+    margin: 6px;
+    height: 700px;
+    width: 60%;
+}
+
+.bluebox3{
+    border: 4px #3651B3 solid;
+    padding: 5px;
+    margin: 6px;
+    height: 700px;
+    width: 60%;
+}
+
+.bluebox1 p{
     font-family: 'Helvetica', sans-serif;
     color: #FEF29A
+}
+
+.bluebox2 p{
+    font-family: 'Helvetica', sans-serif;
+    color: #FEF29A
+}
+
+.bluebox3 p{
+    font-family: 'Helvetica', sans-serif;
+    color: #FEF29A
+}
+
+.bluebox1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bluebox1 ul a{
+    text-decoration: none;
+    color: #FEF29A;
 }
 
 #header_section{
